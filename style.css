@@ -1,6 +1,6 @@
 .form{
     padding: 30px;
-    
+    display: grid;
     }
     
 
@@ -45,14 +45,14 @@ color: red;
 .col-5{
 display: grid;
 grid-template-columns: 30% 30% 30% 30% 30%;
-position: absolute;
-left: 27.5%;
+position: relative;
+left: 40%;
 justify-content: space-between;
 }
 
 .col-6{
 display: grid;
-grid-template-columns: 40% 30% 20% 25% 30% 25%;
-position: absolute;
+grid-template-columns: 70% 30% 20% 25% 30% 25%;
+position: relative;
 }
 
